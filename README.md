@@ -75,11 +75,15 @@ Functional Simulation:
 
 It will invoke the nclaunch window for functional simulation we can compile,elaborate and simulate it using Multiple step
 
+![Screenshot 2025-04-24 184150](https://github.com/user-attachments/assets/923ee11b-7cde-4b00-bfbf-39a2f064d6de)
+
 ## Fig 3: Setting Multi-step simulation
 
 Select Multiple Step and then select “Create cds.lib File” as shown in below figure
 
 Click the cds.lib file and save the file by clicking on Save option
+
+![Screenshot 2025-04-24 184200](https://github.com/user-attachments/assets/a36446e8-d423-4a4d-93ea-9ce216bc21c7)
 
 ## Fig 4: cds.lib file Creation
 
@@ -88,6 +92,8 @@ Click the cds.lib file and save the file by clicking on Save option
 	Select “Don’t include any libraries (verilog design)” from “New cds.lib file” and click on “OK” as in below figure
 
 	We are simulating verilog design without using any libraries
+
+![Screenshot 2025-04-24 184208](https://github.com/user-attachments/assets/362a14d7-3f0a-4495-bd2d-35835260eb96)
 
 ## Fig 5: Selection of Don’t include any libraries
 
@@ -98,6 +104,8 @@ Click the cds.lib file and save the file by clicking on Save option
 	Left side you can see the HDL files. Right side of the window has worklib and snapshots directories listed.
 
 	Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation
+
+![Screenshot 2025-04-24 184227](https://github.com/user-attachments/assets/4aa7671f-6174-4431-a2bd-a4358252b7cc)
 
 ## Fig 6: Nclaunch Window
 
@@ -122,6 +130,8 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 Left side select the file and in Tools : launch verilog compiler with current selection will get enable. Click it to compile the code 
 
 Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation 
+
+![Screenshot 2025-04-24 184305](https://github.com/user-attachments/assets/85b820a3-306a-4314-91af-dc8e855abfe6)
 
 ## Fig 7: Compiled database in worklib
 
@@ -166,9 +176,15 @@ It contains statements that map logical library names to their physical director
 
 ## Fig 9: Design Browser window for simulation
 
+![Screenshot (9)](https://github.com/user-attachments/assets/f362458d-8465-498f-9c7b-01790f2b6d6a)
+
 ## Fig 10: Simulation Waveform Window
 
+![Screenshot (10)](https://github.com/user-attachments/assets/f7498c37-f06e-4643-bc3c-62e9a5c24e79)
+
 ## Fig 11: Simulation Waveform Window
+
+![Screenshot (11)](https://github.com/user-attachments/assets/00cc9c91-940b-4457-889e-d64239f60146)
 
 ### Result
 
